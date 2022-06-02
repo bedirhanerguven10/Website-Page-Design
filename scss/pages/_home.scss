@@ -1,0 +1,71 @@
+
+
+.bg-home {
+    width: 100%;
+    height: 40vh;
+    background-image: url(./../../images/img/showcase.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    padding-top: 4rem ;
+      
+}
+
+.bg-home p {
+    line-height: 3rem;
+    font-size: 1.1rem;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    background-color: $backgroundcolor;
+    height: 10vh;
+    font-size: .8rem;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-right .mail {
+    width: 12rem;
+    height: 2rem;
+    outline: none;border-radius: 5px;
+    
+}
+
+.search-right button {
+    width: 5rem;
+    height:2rem;
+    background-color: $color-btnbg;
+    color: $color;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.grid-column {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 30vh;
+}
+
+
+.html , .css , .graphic {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 1rem;
+    gap: 0 1rem;
+}
+
+.image img {
+    align-items: center;
+    width: 5rem;  
+}
+
+.img-text {
+    margin-top: -50px;
+    height: 5rem;
+}

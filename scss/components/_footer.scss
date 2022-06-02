@@ -1,0 +1,16 @@
+.footer {
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundcolor;
+    color: $color;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 10rem;
+    padding-top: .6rem;
+}

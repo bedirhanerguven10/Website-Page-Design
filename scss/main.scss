@@ -1,0 +1,14 @@
+@import './base/reset';
+
+@import './abstract/mixin' , './abstract/variables';
+
+@import './components/footer' , './components/nav' , './components/responsive.scss';
+
+
+
+@import './pages/about' , './pages/home' , './pages/services';
+
+body {
+    font-size: $fontsize;
+    color: $color;
+}
