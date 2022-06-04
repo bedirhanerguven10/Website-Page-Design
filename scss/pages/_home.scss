@@ -1,7 +1,7 @@
 
 
 .bg-home {
-    width: 100%;
+    // width: 100%;
     height: 40vh;
     background-image: url(./../../images/img/showcase.jpg);
     background-size: 100%;
@@ -41,6 +41,8 @@
     outline: none;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
 
 .grid-column {
@@ -58,6 +60,7 @@
     padding-top: 12px;
     font-size: 1rem;
     gap: 0 1rem;
+    overflow: hidden;
 }
 
 .image img {

@@ -1,0 +1,71 @@
+.services {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: black;
+    gap: 40px;
+    height: 70vh;
+    overflow: hidden;
+    
+}
+
+.service-left {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.service-left h3 {
+    @include font-spec;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.service-left p {
+    font-size: 1.2rem;
+}
+
+.design , .maintenance, .hosting {
+    text-align: left;
+    align-content: center;
+    // height: 30%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    gap: 10px;
+    padding-left: 8px;
+    background-color: rgb(245, 243, 243);
+}
+.form h3 {
+    padding-top: 20px;
+}
+
+.service-right {
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: $color; 
+}
+
+.text-area {
+    resize: none;
+    // width: 190px;
+}
+
+form {
+    height: 50%;
+    background-color: $backgroundcolor;
+    padding-left: 15px;
+}
+
+button {
+    margin-bottom: 10px;
+    width: 60px;
+    padding: 5px 0;
+    color: $color;
+    background-color: $color-btnbg;
+    border: none;
+    
+}
+
+input, .text-area {
+    width: 90%;
+}
+
